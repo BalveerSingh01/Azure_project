@@ -1,0 +1,15 @@
+{
+	"name": "dfdatafactoo",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22f94f59-00d9-4901-8e42-46ccaa5e8061",
+		"tenantId": "fb4ffa5c-8bd5-4c77-992d-8835069e08e2"
+	}
+}

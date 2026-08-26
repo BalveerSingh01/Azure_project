@@ -64,12 +64,12 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "bronze_store",
+						"referenceName": "Parquet_dynami",
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
 							"folder": {
-								"value": "@pipeline().parameters.table",
+								"value": "@{pipeline().parameters.table}",
 								"type": "Expression"
 							},
 							"file": {
